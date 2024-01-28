@@ -18,7 +18,7 @@ function Contact() {
                     <FontAwesomeIcon icon={faLinkedin} />
                 </a>
 
-                <a href='https://github.com/' className='p-3'>
+                <a href='https://github.com/rosiegalezia' className='p-3'>
                     <FontAwesomeIcon icon={faGithub} />
                 </a>
             </h3>

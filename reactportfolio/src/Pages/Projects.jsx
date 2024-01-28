@@ -6,7 +6,7 @@ function Projects() {
         <h2 className="p-3">Take a look at my previous projects:</h2>
         <div>
             {projects.map((project) => {
-                return <Project key={project.id} title={project.title} description={project.description} />;
+                return <Project key={project.id} title={project.title} description={project.description} tools={project.tools} deployed={project.deployed} github={project.github} />;
             })}
         </div>
     </div>

@@ -1,20 +1,56 @@
 [
     {
         "id": 1,
-        "title": "My awesome project",
-        "description": "This is my first awesome project",
-        "image": "./Public/Images/Placeholder_view_vector.svg"
+        "title": "Traveller",
+        "description": "A dynamic travel guide for travellers to the UK. A group project completed in a team of 3.",
+        "image": "./Public/Images/Placeholder_view_vector.svg",
+        "tools": "HTML, CSS, Javascript, Third-Party APIs, Bootstrap, JQuery",
+        "deployed": "https://lico27.github.io/travelLER/",
+        "github": "https://github.com/lico27/travelLER"
     },
     {
         "id": 2,
-        "title": "My awesome project 2",
-        "description": "This is my second awesome project",
-        "image": "./Public/Images/Placeholder_view_vector.svg"
+        "title": "Password Generator",
+        "description": "A JavaScript site that generates a secure password based on a user's requirements, e.g. length and character types.",
+        "image": "./Public/Images/Placeholder_view_vector.svg",
+        "tools": "HTML, CSS, Javascript, Bootstrap",
+        "deployed": "https://lico27.github.io/travelLER/",
+        "github": "https://github.com/lico27/travelLER"
     },
     {
         "id": 3,
-        "title": "My awesome project 3",
-        "description": "This is my third awesome project",
-        "image": "src= './Public/Images/Placeholder_view_vector.svg'"
+        "title": "README Generator",
+        "description": "A command-line application that takes in user inputs to generate a professional README file.",
+        "image": "src= './Public/Images/Placeholder_view_vector.svg'",
+        "tools": "Javascript, Node.js, Inquirer",
+        "deployed": "https://lico27.github.io/travelLER/",
+        "github": "https://github.com/lico27/travelLER"
+    },
+    {
+        "id": 4,
+        "title": "Daily Planner",
+        "description": "A daily planner web app designed to help organise the working day.",
+        "image": "./Public/Images/Placeholder_view_vector.svg",
+        "tools": "HTML, CSS, Javascript, JQuery",
+        "deployed": "https://lico27.github.io/travelLER/",
+        "github": "https://github.com/lico27/travelLER"
+    },
+    {
+        "id": 5,
+        "title": "Team Profile Generator",
+        "description": "A JavaScript site that generates a secure password based on a user's requirements, e.g. length and character types.",
+        "image": "./Public/Images/Placeholder_view_vector.svg",
+        "tools": "HTML, CSS, Javascript, Node.js, Inquirery",
+        "deployed": "https://lico27.github.io/travelLER/",
+        "github": "https://github.com/lico27/travelLER"
+    },
+    {
+        "id": 6,
+        "title": "ABC Fitness Studio",
+        "description": "Work in Progress: A user-friendly website to showcase a studio's fitness class schedule.",
+        "image": "src= './Public/Images/Placeholder_view_vector.svg'",
+        "tools": "HTML, CSS, Javascript, Bootstrap",
+        "deployed": "https://lico27.github.io/travelLER/",
+        "github": "https://github.com/lico27/travelLER"
     }
 ]
