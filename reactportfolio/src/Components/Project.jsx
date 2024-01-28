@@ -1,6 +1,6 @@
 function Project(props) {
     // Body
-    return <div className="card p-3 m-3">
+    return <div className="card col p-3 m-3">
         <h2>{props.title}</h2>
         <p>{props.description}</p>
         <p>{props.tools}</p>
