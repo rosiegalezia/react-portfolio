@@ -1,9 +1,8 @@
 function Project(props) {
     // Body
-    return <div>
+    return <div className="card p-3 m-3">
         <h2>{props.title}</h2>
         <p>{props.description}</p>
-        <img>{props.image}</img>
     </div>
 }
 

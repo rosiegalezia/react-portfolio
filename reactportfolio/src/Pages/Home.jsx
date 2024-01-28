@@ -1,6 +1,8 @@
 function Home() {
     // Body
-    return <div>Welcome to my home page</div>
+    return <div>
+        <h2 className="p-3">Hi! My name is Rosie</h2>
+    </div>
 }
 
 export default Home;

@@ -41,6 +41,16 @@ function NavBar() {
                                 Projects
                             </NavLink>
                         </li>
+                        <li className="nav-item">
+                            <NavLink
+                                className="nav-link active"
+                                aria-current="page"
+                                to="/contact"
+                                end
+                            >
+                                Contact
+                            </NavLink>
+                        </li>
 
                     </ul>
                 </div>
