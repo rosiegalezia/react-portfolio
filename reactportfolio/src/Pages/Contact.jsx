@@ -1,36 +1,37 @@
 import ReactDOM from 'react-dom'
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
-// import { faLinkedin } from '@fortawesome/free-solid-svg-icons'
-// import { faGithub } from '@fortawesome/free-solid-svg-icons'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faEnvelope } from '@fortawesome/free-regular-svg-icons';
+import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
+import { faGithub } from '@fortawesome/free-brands-svg-icons';
 
 
 function Contact() {
     return <div>
         <h2 className="p-3">Contact me:</h2>
         <div className="p-3">
-            <p> <a href='mailto:rosiegalezia@gmail.com'>
-                <div className='email'>
+            <div className='email'>
+                <p> <a href='mailto:rosiegalezia@gmail.com'>
                     <FontAwesomeIcon icon={faEnvelope} />
-                </div>
-            </a>
-            </p>
+                </a>
+                </p>
+            </div>
 
-            {/* <div className='linkedin'>
-            <FontAwesomeIcon icon={faLinkedin} />
-        </div> */}
-            {/* <div className='github'>
-        <FontAwesomeIcon icon={faGithub} />
-        </div> */}
+            <div className='linkedin'>
+                <p> <a href='https://www.linkedin.com/feed/'>
+                    <FontAwesomeIcon icon={faLinkedin} />
+                </a>
+                </p>
+            </div>
+
+            <div className='github'>
+                <p> <a href='https://github.com/'>
+                    <FontAwesomeIcon icon={faGithub} />
+                </a>
+                </p>
+            </div>
         </div>
 
     </div>
 }
 export default Contact
-
-
-
-// const element = <FontAwesomeIcon icon={faCoffee} />
-
-// ReactDOM.render(element, document.body)
 
