@@ -1,19 +1,18 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import * as bootstrap from 'bootstrap'; // Import all of Bootstrap's JS
+import { HashRouter as Router, Route, Routes } from 'react-router-dom';
 
-// import { HashRouter as Router, Route, Routes } from 'react-router-dom';
-import NavBar from './NavTabs';
+import NavBar from './Components/NavBar';
 import Home from './Pages/Home';
-import ProjectsGallery from './Pages/Projects-gallery';
+import Projects from './Pages/Projects';
 
 function App() {
     return <Router>
         <NavBar />
         <Routes>
             <Route path="" element={<Home />} />
-            <Route path="projects-gallery" element={<ProjectsGallery />} />
+            <Route path="projects" element={<Projects />} />
         </Routes>
     </Router>;
 }
-
 export default App
