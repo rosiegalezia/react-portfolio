@@ -3,18 +3,18 @@
         "id": 1,
         "title": "My awesome project",
         "description": "This is my first awesome project",
-        "image": "./Images/Placeholder_view_vector.svg"
+        "image": "./Public/Images/Placeholder_view_vector.svg"
     },
     {
         "id": 2,
         "title": "My awesome project 2",
         "description": "This is my second awesome project",
-        "image": "./Images/Placeholder_view_vector.svg"
+        "image": "./Public/Images/Placeholder_view_vector.svg"
     },
     {
         "id": 3,
         "title": "My awesome project 3",
         "description": "This is my third awesome project",
-        "image": "/Images/Placeholder_view_vector.svg"
+        "image": "src= './Public/Images/Placeholder_view_vector.svg'"
     }
 ]
