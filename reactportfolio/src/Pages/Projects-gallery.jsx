@@ -1,4 +1,4 @@
-import Project from '../components/Project';
+import Project from './Project';
 import projects from '../data/projects.json';
 
 function ProjectsGallery() {
