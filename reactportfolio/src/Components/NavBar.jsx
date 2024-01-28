@@ -1,8 +1,9 @@
 import { NavLink } from "react-router-dom";
+import "./Components.css"
 
 function NavBar() {
     return (
-        <nav className="navbar navbar-expand-lg navbar-light bg-light p-3">
+        <nav className="navbar navbar-expand-lg p-3">
             <div className="container-fluid">
                 <a className="navbar-brand" href="#">
                     Rosie Galezia

@@ -7,8 +7,8 @@ import { faGithub } from '@fortawesome/free-brands-svg-icons';
 
 function Contact() {
     return <div>
-        <h2 className="p-3">Contact me:</h2>
-        <div className="p-3 inline-block">
+        <h2 className="p-5">Contact me:</h2>
+        <div className="px-5 py-3 inline-block">
             <h3>
                 <a href='mailto:rosiegalezia@gmail.com' className='p-3'>
                     <FontAwesomeIcon icon={faEnvelope} />
