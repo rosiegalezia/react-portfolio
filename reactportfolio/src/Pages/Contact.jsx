@@ -8,27 +8,21 @@ import { faGithub } from '@fortawesome/free-brands-svg-icons';
 function Contact() {
     return <div>
         <h2 className="p-3">Contact me:</h2>
-        <div className="p-3">
-            <div className='email'>
-                <p> <a href='mailto:rosiegalezia@gmail.com'>
+        <div className="p-3 inline-block">
+            <h3>
+                <a href='mailto:rosiegalezia@gmail.com' className='p-3'>
                     <FontAwesomeIcon icon={faEnvelope} />
                 </a>
-                </p>
-            </div>
 
-            <div className='linkedin'>
-                <p> <a href='https://www.linkedin.com/feed/'>
+                <a href='https://www.linkedin.com/feed/' className='p-3'>
                     <FontAwesomeIcon icon={faLinkedin} />
                 </a>
-                </p>
-            </div>
 
-            <div className='github'>
-                <p> <a href='https://github.com/'>
+                <a href='https://github.com/' className='p-3'>
                     <FontAwesomeIcon icon={faGithub} />
                 </a>
-                </p>
-            </div>
+            </h3>
+
         </div>
 
     </div>
