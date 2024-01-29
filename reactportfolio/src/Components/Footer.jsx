@@ -7,34 +7,23 @@ import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons';
 function Footer() {
     return (
         <div className=" my-5">
+            <footer className="">
+                <div className="text-center">
+                    <a href='mailto:rosiegalezia@gmail.com' target="_blank" className='p-2'>
+                        <FontAwesomeIcon icon={faEnvelope} size="xl" />
+                    </a>
 
-            <footer className="text-center text-lg-start">
-                <div className="container d-flex justify-content-center py-5">
+                    <a href='https://www.linkedin.com/in/rosiegalezia/' target="_blank" className='p-2'>
+                        <FontAwesomeIcon icon={faLinkedin} size="xl" />
+                    </a>
 
-                    <button type="button" className="btn footerBtn btn-lg btn-floating mx-2" style="background-color: #54456b;">
-                        <i className="fab fa-facebook-f"></i>
-                    </button>
-
-                    <button type="button" className="btn footerBtn btn-lg btn-floating mx-2" style="background-color: #54456b;">
-                        <i className="fab fa-youtube"></i>
-                    </button>
-
-                    <button type="button" className="btn footerBtn btn-lg btn-floating mx-2" style="background-color: #54456b;">
-                        <i className="fab fa-instagram"></i>
-                    </button>
-
-                    <button type="button" className="btn footerBtn btn-lg btn-floating mx-2" style="background-color: #54456b;">
-                        <i className="fab fa-twitter"></i>
-                    </button>
-
+                    <a href='https://github.com/rosiegalezia' target="_blank" className='p-2'>
+                        <FontAwesomeIcon icon={faGithub} size="xl" />
+                    </a>
                 </div>
 
-
-                <div className="text-center text-white p-3">
-                    © 2024 Copyright:
-                    <a className="text-white">Rosie Galezia</a>
+                <div className="footer-copyright text-center py-3">© 2024 Copyright: Rosie Galezia
                 </div>
-
             </footer>
 
         </div>
