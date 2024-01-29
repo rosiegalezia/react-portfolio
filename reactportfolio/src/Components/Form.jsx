@@ -51,7 +51,7 @@ function Form() {
         <div>
             <form className="form p-5">
 
-                <h3 className="mb-5">Or fill out the form below to pop me an email and I'll get back to you as soon as possible.</h3>
+                <h3 className="mb-5">Please fill out the form below to pop me an email and I'll get back to you as soon as possible.</h3>
                 
                 <input
                     className='p-2 my-3 input w-100'

@@ -6,8 +6,8 @@ import ContactIcons from '../Components/ContactIcons';
 
 function Contact() {
     return <div>
-        <ContactIcons></ContactIcons>
         <Form></Form>
+        <ContactIcons></ContactIcons>
     </div>
 }
 export default Contact
