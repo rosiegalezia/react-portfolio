@@ -1,30 +1,13 @@
 import ReactDOM from 'react-dom'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faEnvelope } from '@fortawesome/free-regular-svg-icons';
-import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
-import { faGithub } from '@fortawesome/free-brands-svg-icons';
+import React, { useState } from 'react';
 
+import Form from '../Components/Form';
+import ContactIcons from '../Components/ContactIcons';
 
 function Contact() {
     return <div>
-        <h2 className="p-5">Contact me:</h2>
-        <div className="px-5 py-3 inline-block">
-            <h3>
-                <a href='mailto:rosiegalezia@gmail.com' className='p-3'>
-                    <FontAwesomeIcon icon={faEnvelope} />
-                </a>
-
-                <a href='https://www.linkedin.com/feed/' className='p-3'>
-                    <FontAwesomeIcon icon={faLinkedin} />
-                </a>
-
-                <a href='https://github.com/rosiegalezia' className='p-3'>
-                    <FontAwesomeIcon icon={faGithub} />
-                </a>
-            </h3>
-
-        </div>
-
+        <Form></Form>
+        <ContactIcons></ContactIcons>
     </div>
 }
 export default Contact
