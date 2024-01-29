@@ -3,7 +3,7 @@
         "id": 1,
         "title": "Travel.ler",
         "description": "A dynamic travel guide for travellers to the UK. A group project completed in a team of 3.",
-        "image": "./Public/Images/Placeholder_view_vector.svg",
+        "image": "./Public/Images/travel.ler.png",
         "tools": "HTML, CSS, Javascript, Third-Party APIs, Bootstrap, JQuery",
         "deployed": "https://lico27.github.io/travelLER/",
         "github": "https://github.com/lico27/travelLER"
@@ -12,34 +12,34 @@
         "id": 2,
         "title": "Password Generator",
         "description": "A JavaScript site that generates a secure password based on a user's requirements, e.g. length and character types.",
-        "image": "./Public/Images/Placeholder_view_vector.svg",
+        "image": "./Public/Images/password-generator.png",
         "tools": "HTML, CSS, Javascript, Bootstrap",
-        "deployed": "https://lico27.github.io/travelLER/",
-        "github": "https://github.com/lico27/travelLER"
+        "deployed": "https://rosiegalezia.github.io/password-generator/",
+        "github": "https://github.com/rosiegalezia/password-generator"
     },
     {
         "id": 3,
         "title": "README Generator",
         "description": "A command-line application that takes in user inputs to generate a professional README file.",
-        "image": "./Public/Images/Placeholder_view_vector.svg",
+        "image": "./Public/Images/readme-generator.png",
         "tools": "Javascript, Node.js, Inquirer",
-        "deployed": "https://lico27.github.io/travelLER/",
-        "github": "https://github.com/lico27/travelLER"
+        "deployed": "https://github.com/rosiegalezia/README-generator",
+        "github": "https://github.com/rosiegalezia/README-generator"
     },
     {
         "id": 4,
         "title": "Daily Planner",
         "description": "A daily planner web app designed to help organise the working day.",
-        "image": "./Public/Images/Placeholder_view_vector.svg",
+        "image": "./Public/Images/daily-planner.png",
         "tools": "HTML, CSS, Javascript, JQuery",
-        "deployed": "https://lico27.github.io/travelLER/",
-        "github": "https://github.com/lico27/travelLER"
+        "deployed": "https://rosiegalezia.github.io/daily-planner/",
+        "github": "https://github.com/rosiegalezia/daily-planner"
     },
     {
         "id": 5,
         "title": "Team Profile Generator",
         "description": "A JavaScript site that generates a secure password based on a user's requirements, e.g. length and character types.",
-        "image": "./Public/Images/Placeholder_view_vector.svg",
+        "image": "./Public/Images/team-generator.png",
         "tools": "HTML, CSS, Javascript, Node.js, Inquirery",
         "deployed": "https://lico27.github.io/travelLER/",
         "github": "https://github.com/lico27/travelLER"
@@ -48,9 +48,9 @@
         "id": 6,
         "title": "ABC Fitness Studio",
         "description": "Work in Progress: A user-friendly website to showcase a studio's fitness class schedule.",
-        "image": "./Public/Images/Placeholder_view_vector.svg",
+        "image": "./Public/Images/ABC.png",
         "tools": "HTML, CSS, Javascript, Bootstrap",
-        "deployed": "https://lico27.github.io/travelLER/",
-        "github": "https://github.com/lico27/travelLER"
+        "deployed": "https://rosiegalezia.github.io/ABC-Fitness-Studio/",
+        "github": "https://github.com/rosiegalezia/ABC-Fitness-Studio"
     }
 ]
