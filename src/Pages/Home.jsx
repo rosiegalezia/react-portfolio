@@ -1,11 +1,11 @@
-import '../Pages/Styles.css'
+import './Styles.css'
 
 function Home() {
     // Body
     return <div className='background min-vh-100 pb-5 m-0'>
         <div className='row g-0 p-5 align-items-center'>
             <div className='col col-lg-4 p-4'>
-                <img src='./Public/Images/Headshot.png' className='img-fluid'></img>
+                <img src='../public/Headshot.png' className='img-fluid'></img>
             </div>
 
             <div className='col col-lg-7'>

@@ -1,7 +1,7 @@
 import Project from "../Components/Project"
 import projects from '../Data/projects.json'
 
-import '../Pages/Styles.css'
+import './Styles.css'
 
 
 function Projects() {

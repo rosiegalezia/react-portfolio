@@ -4,7 +4,7 @@ import React, { useState } from 'react';
 import Form from '../Components/Form';
 import ContactIcons from '../Components/ContactIcons';
 
-import '../Pages/Styles.css'
+import './Styles.css'
 
 function Contact() {
     return <div className='background min-vh-100 pb-5'>
