@@ -19,35 +19,35 @@ This project meets all the grading criteria:
 
 * Contains the minimum components required:
 
-*  App:
-  *  The top level component and renders all necessary children components ✅
+  * App:
+      *  The top level component and renders all necessary children components ✅
 
-*  Header:
-  *  Must be rendered across the entire site ✅
-  *  Must Contain a Navbar ✅
+  *  Header:
+      *  Must be rendered across the entire site ✅
+      *  Must Contain a Navbar ✅
 
-*  Project Gallery:
-  *  Must render dynamically 6 instances of the Project component ✅
-    * Project data stored in a JSON file and imported into the project ✅
+  *  Project Gallery:
+      *  Must render dynamically 6 instances of the Project component ✅
+      * Project data stored in a JSON file and imported into the project ✅
 
-*  Project:
-  *  Must be a reusable component that ingests JSON data as a props and renders a single instance for each project ✅
-  *  Must utilize router props to properly render the right project based on user selection 
-  *  Must render the following info:
-    *  Project title ✅
-    *  Link to the deployed version ✅
-    *  Link to the GitHub repository ✅
-    *  GIF or screenshot of the deployed application ⚠️
+  *  Project:
+      *  Must be a reusable component that ingests JSON data as a props and renders a single instance for each project ✅
+      *  Must utilize router props to properly render the right project based on user selection 
+      *  Must render the following info:
+        *  Project title ✅
+        *  Link to the deployed version ✅
+        *  Link to the GitHub repository ✅
+        *  GIF or screenshot of the deployed application ⚠️
 
-*  Contact:
-  *  Must have contact information ✅
-  *  Have a contact form for handling events ✅
+  *  Contact:
+      *  Must have contact information ✅
+      *  Have a contact form for handling events ✅
 
-*  Home - a welcome landing page that contains:
-    * Name ✅
-    * A Headshot ✅
-    * Brand statement ✅
-    * Indication that this is a portfolio site ✅
+  *  Home - a welcome landing page that contains:
+      * Name ✅
+      * A Headshot ✅
+      * Brand statement ✅
+      * Indication that this is a portfolio site ✅
 
 * User experience is intuitive and easy to navigate ✅
 
@@ -68,7 +68,7 @@ This project meets all the grading criteria:
 
 ## Usage
 
-The deployed portfolio is available [here](ADD LINK HERE). A screenshot of the final site can be seen below.
+The deployed portfolio is available [here](https://rosiegalezia.github.io/react-portfolio/). A screenshot of the final site can be seen below.
 ![Screenshot of web app](ADD LINK HERE)
 
 ## Credits
