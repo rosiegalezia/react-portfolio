@@ -45,9 +45,9 @@ This project meets all the grading criteria:
 
 *  Home - a welcome landing page that contains:
     * Name ✅
-    * A Headshot ⚠️
+    * A Headshot ✅
     * Brand statement ✅
-    * Indication that this is a portfolio site ⚠️
+    * Indication that this is a portfolio site ✅
 
 * User experience is intuitive and easy to navigate ✅
 

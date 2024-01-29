@@ -1,5 +1,5 @@
 .navbar {
-background-color: #4dbdbd;
+background-color: #39a2a2;
 }
 
 a {
@@ -26,11 +26,13 @@ a {
 } */
 
 .navbar-nav .nav-link.active {
-    color: red;
+    color: rgba(255, 255, 255, 0.888);
+    font-size: 1.5rem;
 }
 
 .navbar-nav:hover .nav-link.active:hover {
-    color: yellow;
+    color: rgba(255, 255, 255, 0.739);
+    font-size: 1.5rem;
 }
 
 
