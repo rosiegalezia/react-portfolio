@@ -21,7 +21,7 @@
         "id": 3,
         "title": "README Generator",
         "description": "A command-line application that takes in user inputs to generate a professional README file.",
-        "image": "src= './Public/Images/Placeholder_view_vector.svg'",
+        "image": "",
         "tools": "Javascript, Node.js, Inquirer",
         "deployed": "https://lico27.github.io/travelLER/",
         "github": "https://github.com/lico27/travelLER"
