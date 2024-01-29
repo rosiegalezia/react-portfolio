@@ -21,9 +21,18 @@ a {
 }
 
 
-.nav-item:active {
+/* .nav-link:active .navBtn {
+    color: red !important;
+} */
+
+.navbar-nav .nav-link.active {
     color: red;
 }
+
+.navbar-nav:hover .nav-link.active:hover {
+    color: yellow;
+}
+
 
 .submitBtn {
     background-color: #4dbdbd;
@@ -40,6 +49,6 @@ a {
     margin: auto;
 }
 
-.form {
+/* .form {
     background-color: #4dbdbd49;
-}
+} */

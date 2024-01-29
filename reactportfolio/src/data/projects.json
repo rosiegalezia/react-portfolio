@@ -1,7 +1,7 @@
 [
     {
         "id": 1,
-        "title": "Traveller",
+        "title": "Travel.ler",
         "description": "A dynamic travel guide for travellers to the UK. A group project completed in a team of 3.",
         "image": "./Public/Images/Placeholder_view_vector.svg",
         "tools": "HTML, CSS, Javascript, Third-Party APIs, Bootstrap, JQuery",
@@ -21,7 +21,7 @@
         "id": 3,
         "title": "README Generator",
         "description": "A command-line application that takes in user inputs to generate a professional README file.",
-        "image": "",
+        "image": "./Public/Images/Placeholder_view_vector.svg",
         "tools": "Javascript, Node.js, Inquirer",
         "deployed": "https://lico27.github.io/travelLER/",
         "github": "https://github.com/lico27/travelLER"
@@ -48,7 +48,7 @@
         "id": 6,
         "title": "ABC Fitness Studio",
         "description": "Work in Progress: A user-friendly website to showcase a studio's fitness class schedule.",
-        "image": "src= './Public/Images/Placeholder_view_vector.svg'",
+        "image": "./Public/Images/Placeholder_view_vector.svg",
         "tools": "HTML, CSS, Javascript, Bootstrap",
         "deployed": "https://lico27.github.io/travelLER/",
         "github": "https://github.com/lico27/travelLER"

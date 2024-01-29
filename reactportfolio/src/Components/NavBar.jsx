@@ -1,11 +1,11 @@
-import { NavLink } from "react-router-dom";
 import "./Components.css"
+import { NavLink } from "react-router-dom";
 
 function NavBar() {
     return (
-        <nav className="navbar navbar-expand-lg p-3">
-            <div className="container-fluid">
-                <a className="navbar-brand title" href="#">
+        <nav className="navbar navbar-expand-lg">
+            <div className="container-fluid px-5 py-3">
+                <a className="navbar-brand title pe-2" href="#">
                     Rosie Galezia
                 </a>
                 <button
@@ -23,7 +23,7 @@ function NavBar() {
                     <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                         <li className="nav-item">
                             <NavLink
-                                className="nav-link active"
+                                className="nav-link active navBtn"
                                 aria-current="page"
                                 to="/"
                                 end

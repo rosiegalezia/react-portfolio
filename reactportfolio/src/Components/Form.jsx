@@ -74,15 +74,15 @@ function Form() {
                     value={formData.subject}
                     name="subject"
                     onChange={handleInputChange}
-                    type="subject"
+                    type="text"
                     placeholder="Subject"
                 />
                 <input
                     className='p-2 my-3 py-5 input w-100'
                     value={formData.message}
-                    name="subject"
+                    name="message"
                     onChange={handleInputChange}
-                    type="subject"
+                    type="text"
                     placeholder="Message"
                 />
                 <button onClick={handleFormSubmit} className='p-3 submitBtn w-100'>Submit</button>
