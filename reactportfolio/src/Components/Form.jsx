@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import './Components.css'
 
 function Form() {
     // Setting the component's initial state
@@ -48,10 +49,12 @@ function Form() {
     // Notice how each input has a `value`, `name`, and `onChange` prop
     return (
         <div>
-            <h3 className="p-5">Fill out the form below to pop me an email and I'll get back to you as soon as possible.</h3>
-
             <form className="form p-5">
+
+                <h3 className="mb-5">Or fill out the form below to pop me an email and I'll get back to you as soon as possible.</h3>
+                
                 <input
+                    className='p-2 my-3 input w-100'
                     value={formData.name}
                     name="name"
                     onChange={handleInputChange}
@@ -59,6 +62,7 @@ function Form() {
                     placeholder="Name"
                 />
                 <input
+                    className='p-2 my-3 input w-100'
                     value={formData.email}
                     name="email"
                     onChange={handleInputChange}
@@ -66,6 +70,7 @@ function Form() {
                     placeholder="Email Address"
                 />
                 <input
+                    className='p-2 my-3 input w-100'
                     value={formData.subject}
                     name="subject"
                     onChange={handleInputChange}
@@ -73,13 +78,14 @@ function Form() {
                     placeholder="Subject"
                 />
                 <input
+                    className='p-2 my-3 py-5 input w-100'
                     value={formData.message}
                     name="subject"
                     onChange={handleInputChange}
                     type="subject"
                     placeholder="Message"
                 />
-                <button onClick={handleFormSubmit}>Submit</button>
+                <button onClick={handleFormSubmit} className='p-3 submitBtn w-100'>Submit</button>
             </form>
         </div>
     );

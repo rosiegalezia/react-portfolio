@@ -7,20 +7,20 @@ import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons';
 
 function ContactIcons() {
     
-    return <div>
-        <h3 className="p-5">Alternatively you can reach me using the below:</h3>
+    return <div className='pb-5'>
+        <h3 className="p-5">You can reach me using the buttons below:</h3>
         <div className="px-5 py-1 inline-block">
             <h3>
-                <a href='mailto:rosiegalezia@gmail.com' className='p-1'>
-                    <FontAwesomeIcon icon={faEnvelope} size="lg"/>
+                <a href='mailto:rosiegalezia@gmail.com' className='p-2'>
+                    <FontAwesomeIcon icon={faEnvelope} size="xl"/>
                 </a>
 
-                <a href='https://www.linkedin.com/feed/' className='p-1'>
-                    <FontAwesomeIcon icon={faLinkedin} size="lg"/>
+                <a href='https://www.linkedin.com/feed/' className='p-2'>
+                    <FontAwesomeIcon icon={faLinkedin} size="xl"/>
                 </a>
 
-                <a href='https://github.com/rosiegalezia' className='p-1'>
-                    <FontAwesomeIcon icon={faGithub} size="lg"/>
+                <a href='https://github.com/rosiegalezia' className='p-2'>
+                    <FontAwesomeIcon icon={faGithub} size="xl"/>
                 </a>
             </h3>
 

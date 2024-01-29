@@ -9,3 +9,37 @@ a {
 .tools {
     color: grey;
 }
+
+.title {
+    color: white;
+    font-size: 2rem;
+}
+
+.title:hover {
+    color: rgba(255, 255, 255, 0.784);
+    font-size: 2rem;
+}
+
+
+.nav-item:active {
+    color: red;
+}
+
+.submitBtn {
+    background-color: #4dbdbd;
+    /* border: rgb(221, 221, 221); */
+    border-radius: 10px;
+}
+
+.input {
+    /* border: rgb(221, 221, 221); */
+    border-radius: 10px;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+.form {
+    background-color: #4dbdbd49;
+}
