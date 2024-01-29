@@ -8,7 +8,7 @@ This project meets all the grading criteria:
 
 * Uses React ✅
 
-* Includes navigation with `React Router`, dynamic rendering, or another third part router ✅
+* Includes navigation with `React Router`, dynamic rendering, or another third party router ✅
 
 * Contains:
     * Name ✅
