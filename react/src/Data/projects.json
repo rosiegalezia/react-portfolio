@@ -41,8 +41,8 @@
         "description": "A JavaScript site that generates a secure password based on a user's requirements, e.g. length and character types.",
         "image": "./public/team-generator.png",
         "tools": "HTML, CSS, Javascript, Node.js, Inquirery",
-        "deployed": "https://lico27.github.io/travelLER/",
-        "github": "https://github.com/lico27/travelLER"
+        "deployed": "https://github.com/rosiegalezia/team-profile-generator",
+        "github": "https://github.com/rosiegalezia/team-profile-generator"
     },
     {
         "id": 6,
